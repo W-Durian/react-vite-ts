@@ -1,0 +1,46 @@
+@use '_variables.scss';
+@use 'bootstrap/dist/css/bootstrap.css';
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'AlibabaPuHuiTi-Regular';
+}
+
+@font-face {
+  font-family: 'AlibabaPuHuiTi-Regular';
+  src: url('./assets/fonts/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf');
+}
+
+@font-face {
+  font-family: 'AlibabaPuHuiTi-Bold';
+  src: url('./assets/fonts/Alibaba_PuHuiTi_2.0_55_Regular_85_Bold.ttf');
+}
+
+@font-face {
+  font-family: 'AlibabaPuHuiTi-Medium';
+  src: url('./assets/fonts/Alibaba_PuHuiTi_2.0_65_Medium_65_Medium.ttf');
+}
+
+// @media (prefers-color-scheme: light) {
+//   :root {
+//     color: #213547;
+//     background-color: #ffffff;
+//   }
+//   a:hover {
+//     color: #747bff;
+//   }
+//   button {
+//     background-color: #f9f9f9;
+//   }
+// }
